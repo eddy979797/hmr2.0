@@ -12,7 +12,7 @@ import tensorflow as tf
 
 try:
     from IPython import get_ipython
-
+    # mcm
     ipy_str = str(type(get_ipython()))
     if 'zmqshell' in ipy_str:
         from tqdm import tqdm_notebook as tqdm
